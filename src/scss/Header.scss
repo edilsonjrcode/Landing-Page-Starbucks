@@ -1,0 +1,22 @@
+@use 'main' as *;
+
+header {
+    @include flex(row, center, space-between);
+    padding: 2rem 10%;
+
+    img {
+        width: 6.0625rem;
+        height: 6rem;
+    }
+    
+    nav {
+        a {
+            color: $black;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-right: 2.43rem;
+        }
+    }
+}

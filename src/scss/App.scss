@@ -1,0 +1,9 @@
+@use "mixins" as *;
+
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  @include responsive(848px) {
+    overflow-y: scroll;
+  }
+}
