@@ -79,7 +79,7 @@ section#home {
   }
 
   section#box-coffees {
-    @include flex(row, center, center);
+    @include flex(row, baseline, center);
     div.coffees {
       img {
         position: relative;

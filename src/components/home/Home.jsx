@@ -10,21 +10,21 @@ export default function Home() {
 
     for (let miniCoffee of miniCoffees) {
       miniCoffee.addEventListener("click", () => {
-        if (miniCoffee.getAttribute("src") == "src/images/green-coffee.png") {
-          coffee.setAttribute("src", "src/images/green-coffee.png");
+        if (miniCoffee.getAttribute("src") == "/green-coffee.png") {
+          coffee.setAttribute("src", "/green-coffee.png");
           circle.style.background = "#047044";
           button.style.background = "#047044";
           starbucks.style.color = "#047044";
         } else if (
-          miniCoffee.getAttribute("src") == "src/images/pink-coffee.png"
+          miniCoffee.getAttribute("src") == "/pink-coffee.png"
         ) {
-          coffee.setAttribute("src", "src/images/pink-coffee.png");
+          coffee.setAttribute("src", "/pink-coffee.png");
           circle.style.background = "#ee34ba";
           button.style.background = "#ee34ba";
           starbucks.style.color = "#ee34ba";
 
         } else {
-          coffee.setAttribute("src", "src/images/rose-coffee.png");
+          coffee.setAttribute("src", "/rose-coffee.png");
           circle.style.background = "#df506a";
           button.style.background = "#df506a";
           starbucks.style.color = "#df506a";
@@ -53,7 +53,7 @@ export default function Home() {
 
           <div id="img-coffee">
             <div id="circle"></div>
-            <img id="bigcoffee" src="src/images/green-coffee.png" alt="" />
+            <img id="bigcoffee" src="/green-coffee.png" alt="" />
           </div>
         </section>
 
@@ -61,19 +61,19 @@ export default function Home() {
           <div className="coffees">
             <img
               className="coffee"
-              src="src/images/green-coffee.png"
+              src="/green-coffee.png"
               alt=""
               onClick={changeImg}
             />
             <img
               className="coffee"
-              src="src/images/pink-coffee.png"
+              src="/pink-coffee.png"
               alt=""
               onClick={changeImg}
             />
             <img
               className="coffee"
-              src="src/images/rose-coffee.png"
+              src="/rose-coffee.png"
               alt=""
               onClick={changeImg}
             />
