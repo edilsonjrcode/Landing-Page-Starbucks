@@ -49,11 +49,17 @@ section#home {
         background: $green;
         color: $white;
         font-size: 0.9375rem;
-        font-style: normal;
         font-weight: 600;
-        line-height: normal;
         text-transform: uppercase;
-        padding: 1.12rem 1.19rem;
+        text-align: center;
+        padding: 1.12rem;
+        transition: all .5s;
+        &:hover{
+            color: $green;
+            background: #fff;
+            font-weight: 700;
+            border: 1px solid $green;
+        }
       }
     }
 
@@ -64,7 +70,10 @@ section#home {
         width: 25rem;
         height: 32rem;
         z-index: 4;
-        transition: all 1s;
+        transition: all .5s;
+        &:hover{
+            transform: scale(1.1);
+        }
       }
 
       div {
@@ -86,6 +95,10 @@ section#home {
         width: 6.3125rem;
         height: 9.125rem;
         z-index: 6;
+        transition: all .5s;
+        &:hover{
+            transform: scale(1.2);
+        }
         &:first-child {
           margin-right: 1rem;
         }
@@ -118,10 +131,6 @@ section#home {
 
     section#box-coffees {
         div.coffees {
-            // background-color: #fff;
-            // height: 10rem;
-            // width: 100%;
-            z-index: 3;
             margin-bottom: 1rem;
         }
     }

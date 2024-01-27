@@ -19,9 +19,9 @@ export default function Home() {
           miniCoffee.getAttribute("src") == "/pink-coffee.png"
         ) {
           coffee.setAttribute("src", "/pink-coffee.png");
-          circle.style.background = "#ee34ba";
-          button.style.background = "#ee34ba";
-          starbucks.style.color = "#ee34ba";
+          circle.style.background = "#ce5faf";
+          button.style.background = "#ce5faf";
+          starbucks.style.color = "#ce5faf";
 
         } else {
           coffee.setAttribute("src", "/rose-coffee.png");
